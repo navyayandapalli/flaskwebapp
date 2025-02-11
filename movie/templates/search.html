@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Document</title>
+    </head>
+    <body>
+        <form method="POST" action="/search">
+            id <input type="number" name="id" /> <br>
+                <input type="submit" />
+            </form>
+            
+            {% if movie %}
+            <h3>Movie Found:</h3>
+            <p><strong>Name:</strong> {{ movie[1] }}</p>
+            <p><strong>Description:</strong> {{ movie[2] }}</p>
+            {% endif %}
+    </body>
+</html>
