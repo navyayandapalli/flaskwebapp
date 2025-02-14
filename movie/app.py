@@ -3,7 +3,7 @@ from flask import *
 #from flaskext.mysql import MySQL
 from flask import render_template
 import pymysql
-# used pymysql
+# used pymysqqql
 app = Flask("myMovieapp")
 
 app.secret_key ='abcd'
